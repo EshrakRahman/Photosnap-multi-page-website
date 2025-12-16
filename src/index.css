@@ -1,68 +1,118 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@import "tailwindcss";
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+/* ----------------------------------
+   THEME TOKENS
+---------------------------------- */
+@theme {
+  /* Colors */
+  --color-accent-peach: #ffc593;
+  --color-accent-pink: #bc7198;
+  --color-accent-blue: #5a77ff;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  --color-black: #000000;
+  --color-grey-light: #dfdfdf;
+  --color-white: #ffffff;
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
+  /* Typography */
+  --font-dm: "DM Sans", system-ui, sans-serif;
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  /* Gradients */
+  --gradient-main: linear-gradient(
+    135deg,
+    var(--color-accent-peach),
+    var(--color-accent-pink),
+    var(--color-accent-blue)
+  );
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+/* ----------------------------------
+   BASE STYLES
+---------------------------------- */
+@layer base {
+  html {
+    font-family: var(--font-dm);
+    color: var(--color-black);
+    background-color: var(--color-white);
   }
-  a:hover {
-    color: #747bff;
+}
+
+/* ----------------------------------
+   TYPOGRAPHY UTILITIES
+---------------------------------- */
+@layer utilities {
+  /* Headings */
+  .heading-xl {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    letter-spacing: 0.0417em;
   }
-  button {
-    background-color: #f9f9f9;
+
+  .heading-lg {
+    font-size: 24px;
+    line-height: 25px;
+    font-weight: 700;
+  }
+
+  .heading-md {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+  }
+
+  .heading-sm {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+
+  /* Body */
+  .body-text {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+  }
+
+  /* Color Utilities */
+  .text-accent-peach {
+    color: var(--color-accent-peach);
+  }
+  .text-accent-pink {
+    color: var(--color-accent-pink);
+  }
+  .text-accent-blue {
+    color: var(--color-accent-blue);
+  }
+
+  .bg-accent-peach {
+    background-color: var(--color-accent-peach);
+  }
+  .bg-accent-pink {
+    background-color: var(--color-accent-pink);
+  }
+  .bg-accent-blue {
+    background-color: var(--color-accent-blue);
+  }
+
+  .bg-grey-light {
+    background-color: var(--color-grey-light);
+  }
+
+  /* Gradient Utilities */
+  .bg-gradient-main {
+    background-image: var(--gradient-main);
+  }
+
+  .text-gradient-main {
+    background-image: var(--gradient-main);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .nav-text {
+    @apply font-dm tracking-[2px] font-bold text-[12px] uppercase transition-all duration-200 text-black hover:opacity-30 hover:cursor-pointer;
   }
 }
