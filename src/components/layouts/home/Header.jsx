@@ -3,7 +3,7 @@ import {
   HomeHeaderImgDesktop,
   HomeHeaderImgTablet,
 } from "@/assets";
-import { ButtonWithoutFill } from "../shared";
+import { ButtonWithoutFill } from "../../shared";
 
 export default function Header() {
   return (
@@ -37,7 +37,7 @@ export default function Header() {
             We make it easy to share photos, tell stories and connect with
             others.
           </p>
-          <ButtonWithoutFill title="get an invite" />
+          <ButtonWithoutFill title="get an invite" icon="white" />
         </div>
       </header>
     </>
