@@ -22,3 +22,17 @@ export { default as BeutifulStoriesDesktop } from "./home/desktop/beautiful-stor
 export { default as DesingedEveryoneMobile } from "./home/mobile/designed-for-everyone.jpg";
 export { default as DesingedEveryoneTablet } from "./home/tablet/designed-for-everyone.jpg";
 export { default as DesingedEveryoneDesktop } from "./home/desktop/designed-for-everyone.jpg";
+
+// photo card images
+// home page
+export { default as mountainMobile } from "./stories/mobile/mountains.jpg";
+export { default as mountainDesktop } from "./stories/desktop/mountains.jpg";
+
+export { default as cityscapesMobile } from "./stories/mobile/cityscapes.jpg";
+export { default as cityscapesDesktop } from "./stories/desktop/cityscapes.jpg";
+
+export { default as voyageMobile } from "./stories/mobile/18-days-voyage.jpg";
+export { default as voyageDesktop } from "./stories/desktop/18-days-voyage.jpg";
+
+export { default as architecturalMobiel } from "./stories/mobile/architecturals.jpg";
+export { default as architecturalDekstop } from "./stories/desktop/architecturals.jpg";

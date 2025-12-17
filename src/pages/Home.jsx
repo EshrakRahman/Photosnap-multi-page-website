@@ -9,6 +9,7 @@ import {
   DesingedEveryoneMobile,
   DesingedEveryoneTablet,
 } from "@/assets";
+import { PhotoCard, PhotoCardContainer } from "@/components/shared";
 
 export default function Home() {
   return (
@@ -33,6 +34,8 @@ export default function Home() {
         description="Photosnap can help you create stories that resonate with your audience.  
         Our tool is designed for photographers of all levels, brands, businesses you name it."
       />
+
+      <PhotoCardContainer />
     </div>
   );
 }
