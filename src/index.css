@@ -115,4 +115,7 @@
   .nav-text {
     @apply font-dm tracking-[2px] font-bold text-[12px] uppercase transition-all duration-200 text-black hover:opacity-30 hover:cursor-pointer;
   }
+  .nav-text-footer {
+    @apply font-dm tracking-[2px] font-bold text-[12px] uppercase transition-all duration-200 text-white hover:opacity-30 hover:cursor-pointer;
+  }
 }

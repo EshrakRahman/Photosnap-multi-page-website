@@ -1,7 +1,5 @@
-import Logo from "./shared/desktop/logo.svg";
-
-export { Logo };
-
+export { default as Logo } from "./shared/desktop/logo.svg";
+export { default as whiteLogo } from "./white-logo.svg";
 export { default as MenuIcon } from "./shared/mobile/menu.svg";
 export { default as CloseMenuIcon } from "./shared/mobile/close.svg";
 export { default as ButtonIcon } from "./shared/desktop/arrow.svg";
@@ -36,3 +34,15 @@ export { default as voyageDesktop } from "./stories/desktop/18-days-voyage.jpg";
 
 export { default as architecturalMobiel } from "./stories/mobile/architecturals.jpg";
 export { default as architecturalDekstop } from "./stories/desktop/architecturals.jpg";
+
+// feature card icons
+export { default as responsiveIcon } from "./features/desktop/responsive.svg";
+export { default as uploadIcon } from "./features/desktop/no-limit.svg";
+export { default as embedIcon } from "./features/desktop/embed.svg";
+
+// footer
+export { default as fbIcon } from "./shared/desktop/facebook.svg";
+export { default as ytIcon } from "./shared/desktop/youtube.svg";
+export { default as twitterIcon } from "./shared/desktop/twitter.svg";
+export { default as pintrestIcon } from "./shared/desktop/pinterest.svg";
+export { default as instaIcon } from "./shared/desktop/instagram.svg";

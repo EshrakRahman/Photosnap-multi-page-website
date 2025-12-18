@@ -1,4 +1,4 @@
-import { Header, TwoCardsSection } from "@/components/layouts";
+import { Footer, Header, TwoCardsSection } from "@/components/layouts";
 import { DesktopNav, MobileNav } from "../components/layouts/nav";
 
 import {
@@ -9,7 +9,7 @@ import {
   DesingedEveryoneMobile,
   DesingedEveryoneTablet,
 } from "@/assets";
-import { PhotoCard, PhotoCardContainer } from "@/components/shared";
+import { FeatureCardContainer, PhotoCardContainer } from "@/components/shared";
 
 export default function Home() {
   return (
@@ -36,6 +36,8 @@ export default function Home() {
       />
 
       <PhotoCardContainer />
+      <FeatureCardContainer />
+      <Footer />
     </div>
   );
 }
