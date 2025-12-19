@@ -1,0 +1,153 @@
+import {
+  mountainMobile,
+  mountainDesktop,
+  cityscapesMobile,
+  cityscapesDesktop,
+  voyageMobile,
+  voyageDesktop,
+  architecturalMobiel,
+  architecturalDekstop,
+  WorldTourMobile,
+  WorldTourDesktop,
+  UnforeseenMobile,
+  UnforeseenDektop,
+  KingMobile,
+  KingDesktop,
+  NowhereMobile,
+  NowhereDesktop,
+  SeaMobile,
+  SeaDesktop,
+  RunningMobile,
+  RunningDesktop,
+  WavesMobile,
+  WavesDesktop,
+  CalmMobile,
+  CalmDesktop,
+  MilkyWayMobile,
+  MilkyWayDesktop,
+  DarkForestMobile,
+  DarkForestDesktop,
+  BeautyMobile,
+  BeautyDesktop,
+  DreamsMobile,
+  DreamsDesktop,
+} from "@/assets";
+
+export const homePhotos = [
+  {
+    mobile: mountainMobile,
+    desktop: mountainDesktop,
+    title: "The Mountain",
+    author: "by John Appleseed",
+  },
+  {
+    mobile: cityscapesMobile,
+    desktop: cityscapesDesktop,
+    title: "Sunset Cityscapes",
+    author: "by Benjamin Cruz",
+  },
+  {
+    mobile: voyageMobile,
+    desktop: voyageDesktop,
+    title: "18 Days Voyage",
+    author: "by Alexei Borodin",
+  },
+  {
+    mobile: architecturalMobiel,
+    desktop: architecturalDekstop,
+    title: "Architecturals",
+    author: "by Samantha Brooke",
+  },
+];
+
+export const storiesPhotos = [
+  {
+    mobile: WorldTourMobile,
+    desktop: WorldTourDesktop,
+    title: "World Tour 2019",
+    author: "by Timothy Wagner",
+    publish_date: "April 7th 2020",
+  },
+  {
+    mobile: UnforeseenMobile,
+    desktop: UnforeseenDektop,
+    author: "by William Malcolm",
+    publish_date: "April 3rd 2020",
+    title: "Unforeseen Corners",
+  },
+
+  {
+    mobile: KingMobile,
+    desktop: KingDesktop,
+    author: "by Timothy Wagner",
+    publish_date: "March 7th 2020",
+    title: "King on Africa: Part 2",
+  },
+  {
+    mobile: NowhereMobile,
+    desktop: NowhereDesktop,
+    author: "by Felicia Rourke",
+    publish_date: "April 3rd 2020",
+    title: "The Trip of Nowhere",
+  },
+
+  {
+    mobile: SeaMobile,
+    desktop: SeaDesktop,
+    author: "by Mohammad Abdul",
+    publish_date: "June 7th 2020",
+    title: "Rage of The Sea",
+  },
+  {
+    mobile: RunningMobile,
+    desktop: RunningDesktop,
+    author: "by Malcolm",
+    publish_date: "May 3rd 2020",
+    title: "Running Free",
+  },
+
+  {
+    mobile: WavesMobile,
+    desktop: WavesDesktop,
+    author: "by Lamarr Wilson",
+    publish_date: "April 17th 2020",
+    title: "Behind the Waves",
+  },
+  {
+    mobile: CalmMobile,
+    desktop: CalmDesktop,
+    author: "by Samantha Broke",
+    publish_date: "March 3rd 2020",
+    title: "Calm Waters",
+  },
+
+  {
+    mobile: MilkyWayMobile,
+    desktop: MilkyWayDesktop,
+    author: "by Benjamin Cruz",
+    publish_date: "March 7th 2020",
+    title: "The Milky Way",
+  },
+  {
+    mobile: DarkForestMobile,
+    desktop: DarkForestDesktop,
+    author: "by William Malcolm",
+    publish_date: "June 3rd 2020",
+    title: "Night at The Dark Forest",
+  },
+
+  {
+    mobile: BeautyMobile,
+    desktop: BeautyDesktop,
+    author: "by Timothy Wagner",
+    publish_date: "March 7th 2020",
+    title: "Somwarpet's Beauty",
+  },
+  {
+    mobile: DreamsMobile,
+    desktop: DreamsDesktop,
+    author: "by William Malcolm",
+    publish_date: "March 3rd 2020",
+    title: "Land of Dreams",
+  },
+];

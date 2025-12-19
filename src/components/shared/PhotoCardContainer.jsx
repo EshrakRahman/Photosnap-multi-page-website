@@ -10,34 +10,21 @@ import {
   voyageMobile,
 } from "@/assets";
 
-export default function PhotoCardContainer() {
+export default function PhotoCardContainer({ photos }) {
   return (
     <>
       <section className="grid md:grid-cols-2 lg:grid-cols-4">
-        <PhotoCard
-          mobile={mountainMobile}
-          desktop={mountainDesktop}
-          title="The Mountain"
-          author="by John Appleseed"
-        />
-        <PhotoCard
-          mobile={cityscapesMobile}
-          desktop={cityscapesDesktop}
-          title="Sunset Cityscapes"
-          author="by Benjamin Cruz"
-        />
-        <PhotoCard
-          mobile={voyageMobile}
-          desktop={voyageDesktop}
-          title="18 Days Voyage"
-          author="by Alexei Borodin"
-        />
-        <PhotoCard
-          mobile={architecturalMobiel}
-          desktop={architecturalDekstop}
-          title="Architecturals"
-          author="by Samantha Brooke"
-        />
+        {photos.map((photo, idx) => (
+          <PhotoCard
+            key={idx}
+            mobile={photo.mobile}
+            tablet={photo.tablet}
+            desktop={photo.desktop}
+            author={photo.author}
+            title={photo.title}
+            publish_date={photo.publish_date}
+          />
+        ))}
       </section>
     </>
   );

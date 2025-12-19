@@ -7,6 +7,7 @@ import {
   ytIcon,
 } from "@/assets";
 import { ButtonWithoutFill } from "@/components/shared";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -15,7 +16,9 @@ export default function Footer() {
         <div className="section-one flex flex-col md:flex-row gap-12 ">
           <div className="left flex flex-col gap-10 justify-between">
             <div className="logo">
-              <img src={whiteLogo} alt="Photo snap logo" />
+              <Link to="/">
+                <img src={whiteLogo} alt="Photo snap logo" />
+              </Link>
             </div>
             <div className="icons flex gap-4 items-center justify-between">
               <div className="">
@@ -37,18 +40,18 @@ export default function Footer() {
           </div>
           <div className="right">
             <nav className="flex md:flex-col gap-3">
-              <a className=" nav-text-footer" href="">
+              <Link className=" nav-text-footer" to="/">
                 Home
-              </a>
-              <a className=" nav-text-footer" href="">
+              </Link>
+              <Link className=" nav-text-footer" to="/stories">
                 Stories
-              </a>
-              <a className=" nav-text-footer" href="">
+              </Link>
+              <Link className=" nav-text-footer" to="/features">
                 Features
-              </a>
-              <a className=" nav-text-footer" href="">
+              </Link>
+              <Link className=" nav-text-footer" to="/pricing">
                 Pricing
-              </a>
+              </Link>
             </nav>
           </div>
         </div>

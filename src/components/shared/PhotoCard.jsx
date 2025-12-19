@@ -1,7 +1,13 @@
 import { ButtonIconWhite } from "@/assets";
 import { ResponsiveImages } from ".";
 
-export default function PhotoCard({ mobile, desktop, title, author }) {
+export default function PhotoCard({
+  mobile,
+  desktop,
+  title,
+  author,
+  publish_date,
+}) {
   return (
     <>
       <div className=" relative transition-transform duration-300 hover:-translate-y-3 group">
@@ -14,7 +20,12 @@ export default function PhotoCard({ mobile, desktop, title, author }) {
           />
         </div>
         <div className="content px-6 absolute flex w-full flex-col gap-4 bottom-6.5">
-          <div className="">
+          <div className=" flex flex-col gap-3.5">
+            {publish_date && (
+              <p className="font-dm font-normal text-[13px] text-white">
+                {publish_date}
+              </p>
+            )}
             <p className="font-dm font-bold text-[18px] leading-6 text-white ">
               {title}
             </p>

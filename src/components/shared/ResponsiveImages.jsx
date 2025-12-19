@@ -1,9 +1,13 @@
 export default function ResponsiveImages({ mobile, tablet, desktop, alt }) {
   return (
-    <picture className="w-full flex">
+    <picture className="block w-full">
       <source media="(min-width:1024px)" srcSet={desktop} />
       <source media="(min-width:768px)" srcSet={tablet} />
-      <img src={mobile} alt={alt} className="w-full h-auto object-cover" />
+      <img
+        src={mobile}
+        alt={alt}
+        className="w-full h-auto object-cover object-center"
+      />
     </picture>
   );
 }
