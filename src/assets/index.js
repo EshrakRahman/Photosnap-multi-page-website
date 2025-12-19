@@ -46,3 +46,9 @@ export { default as ytIcon } from "./shared/desktop/youtube.svg";
 export { default as twitterIcon } from "./shared/desktop/twitter.svg";
 export { default as pintrestIcon } from "./shared/desktop/pinterest.svg";
 export { default as instaIcon } from "./shared/desktop/instagram.svg";
+
+// stories header image
+
+export { default as StoriesHeaderImgDesktop } from "./stories/desktop/moon-of-appalacia.jpg";
+export { default as StoriesHeaderIgmMobile } from "./stories/mobile/moon-of-appalacia.jpg";
+export { default as StoriesHeaderIgmTablet } from "./stories/tablet/moon-of-appalacia.jpg";

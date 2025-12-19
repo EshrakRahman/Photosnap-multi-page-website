@@ -1,9 +1,4 @@
-import {
-  Footer,
-  Header,
-  TwoCardsSection,
-  TwoCardsSectionContainer,
-} from "@/components/layouts";
+import { Footer, Header, TwoCardsSectionContainer } from "@/components/layouts";
 import { DesktopNav, MobileNav } from "../components/layouts/nav";
 
 import { FeatureCardContainer, PhotoCardContainer } from "@/components/shared";
