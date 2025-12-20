@@ -31,12 +31,12 @@ export default function MobileNav() {
               <Link to="/stories" className="nav-text ">
                 stories
               </Link>
-              <a href="#" className="nav-text">
+              <Link to="/features" className="nav-text">
                 features
-              </a>
-              <a href="#" className="nav-text ">
+              </Link>
+              <Link to="/pricing" className="nav-text ">
                 pricing
-              </a>
+              </Link>
             </div>
             <div className="border w-full  border-black opacity-25"></div>
             <div className="cta">

@@ -35,11 +35,6 @@ export { default as voyageDesktop } from "./stories/desktop/18-days-voyage.jpg";
 export { default as architecturalMobiel } from "./stories/mobile/architecturals.jpg";
 export { default as architecturalDekstop } from "./stories/desktop/architecturals.jpg";
 
-// feature card icons
-export { default as responsiveIcon } from "./features/desktop/responsive.svg";
-export { default as uploadIcon } from "./features/desktop/no-limit.svg";
-export { default as embedIcon } from "./features/desktop/embed.svg";
-
 // footer
 export { default as fbIcon } from "./shared/desktop/facebook.svg";
 export { default as ytIcon } from "./shared/desktop/youtube.svg";
@@ -90,3 +85,26 @@ export { default as BeautyMobile } from "./stories/mobile/somwarpet.jpg";
 
 export { default as DreamsDesktop } from "./stories/desktop/land-of-dreams.jpg";
 export { default as DreamsMobile } from "./stories/mobile/land-of-dreams.jpg";
+
+// features header img
+
+export { default as FeaturesHeaderMobile } from "./features/mobile/hero.jpg";
+export { default as FeaturesHeaderTablet } from "./features/tablet/hero.jpg";
+export { default as FeaturesHeaderDesktop } from "./features/desktop/hero.jpg";
+
+// features card icon
+
+export { default as CustomDomainIcon } from "./features/desktop/custom-domain.svg";
+export { default as BostIcon } from "./features/desktop/boost-exposure.svg";
+export { default as DragIcon } from "./features/desktop/drag-drop.svg";
+export { default as responsiveIcon } from "./features/desktop/responsive.svg";
+export { default as uploadIcon } from "./features/desktop/no-limit.svg";
+export { default as embedIcon } from "./features/desktop/embed.svg";
+
+// features footer image
+export { default as FeatureFooterImg } from "./shared/desktop/bg-beta.jpg";
+
+// pricing images
+export { default as PricingHeaderImgMobile } from "./pricing/mobile/hero.jpg";
+export { default as PricingHeaderImgTablet } from "./pricing/tablet/hero.jpg";
+export { default as PricingHeaderImgDesktop } from "./pricing/desktop/hero.jpg";

@@ -1,14 +1,4 @@
 import { PhotoCard } from ".";
-import {
-  architecturalDekstop,
-  architecturalMobiel,
-  cityscapesDesktop,
-  cityscapesMobile,
-  mountainDesktop,
-  mountainMobile,
-  voyageDesktop,
-  voyageMobile,
-} from "@/assets";
 
 export default function PhotoCardContainer({ photos }) {
   return (

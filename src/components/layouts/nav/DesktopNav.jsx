@@ -15,12 +15,12 @@ export default function DesktopNav() {
           <Link to="/stories" className="nav-text">
             stories
           </Link>
-          <a href="#" className="nav-text">
+          <Link to="/features" className="nav-text">
             features
-          </a>
-          <a href="#" className="nav-text">
+          </Link>
+          <Link to="/pricing" className="nav-text">
             pricing
-          </a>
+          </Link>
         </div>
         <div className="cta">
           <ButtonWithFill />
