@@ -33,7 +33,7 @@ export default function Header({
           />
         </div>
         <div className="content relative bg-black px-6 md:px-12 lg:px-16 lg:py-16 lg:gap-16 flex justify-center flex-col items-start gap-6 md:gap-12 py-12">
-          <div className="w-32 md:h-76 md:w-1.5 h-1.5 bg-gradient-main absolute md:top-[30%] lg:top-[25%] top-0 md:left-0   left-6"></div>
+          <div className="w-32 md:h-76 md:w-1.5 h-1.5 bg-gradient-main absolute md:top-[30%] lg:top-[15%] top-0 md:left-0   left-6"></div>
 
           <h1 className="text-[32px] md:text-[40px] md:tracking-[5px] font-dm font-bold leading-10 tracking-[3.33px] text-balance text-white ">
             {title}
