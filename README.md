@@ -1,16 +1,104 @@
-# React + Vite
+# Photosnap — Multi-Page Photography Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Photosnap Preview](./preview.jpg)
 
-Currently, two official plugins are available:
+A modern, fully responsive multi-page website for a photography platform.  
+Built to closely match a professional design specification while focusing on scalability, reusability, and clean frontend architecture.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🔗 Live & Source
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Live Site:** https://photosnapweb.netlify.app/
+- **GitHub Repository:** https://github.com/EshrakRahman/Photosnap-multi-page-website
+- **Design Challenge:** Frontend Mentor — Photosnap Multi-Page Website
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Overview
+
+Photosnap is a marketing website showcasing photography stories, features, and pricing plans.  
+The project emphasizes **responsive design**, **component reuse**, and **maintainable UI structure** across multiple pages.
+
+Users can:
+
+- Navigate between pages seamlessly
+- View optimized layouts on mobile, tablet, and desktop
+- Experience consistent hover and interaction states throughout the site
+
+---
+
+## 🧠 Key Highlights
+
+- Mobile-first, responsive layouts
+- Multi-page routing with React Router
+- Reusable UI components and shared layouts
+- Centralized image and data management
+- Clean Tailwind CSS design system
+- Optimized responsive images
+
+---
+
+## 🛠️ Tech Stack
+
+- **React**
+- **Vite**
+- **Tailwind CSS**
+- **React Router**
+- **CSS Grid & Flexbox**
+- **Semantic HTML**
+
+---
+
+## ▶️ Run Locally
+
+To run this project on your local machine:
+
+```bash
+# Clone the repository
+git clone https://github.com/EshrakRahman/Photosnap-multi-page-website.git
+
+# Navigate to the project directory
+cd Photosnap-multi-page-website
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+The app will be available at `http://localhost:5173`.
+
+---
+
+## 📈 What This Project Demonstrates
+
+- Translating a detailed Figma design into a production-ready UI
+- Structuring scalable React components for reuse across pages
+- Managing responsive images without layout shifts
+- Organizing shared UI, layout components, and data cleanly
+- Writing maintainable, readable frontend code
+
+---
+
+## 🔄 Future Improvements
+
+- Add accessibility enhancements (ARIA, keyboard navigation)
+- Improve image loading and performance optimizations
+- Introduce subtle UI animations
+- Migrate the project to **TypeScript**
+
+---
+
+## 👤 Author
+
+- **GitHub:** [https://github.com/EshrakRahman](https://github.com/EshrakRahman)
+- **Frontend Mentor:** [https://www.frontendmentor.io/profile/EshrakRahman](https://www.frontendmentor.io/profile/EshrakRahman)
+
+---
+
+## 🙏 Credits
+
+Design provided by **Frontend Mentor**.
+Project completed independently to practice real-world frontend development patterns.
